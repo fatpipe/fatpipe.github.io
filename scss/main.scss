@@ -55,17 +55,32 @@ h2 {
 }
 
 .demo {
+	position: relative;
 	margin: auto;
-	width: 709px;
-	height: 441px;
-	background-image: url(../images/screenshot.png);
-	background-size: 100%;
+	width: 760px;
+	height: 487.5px;
+
+	.static {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		bottom: 0px;
+		right: 0px;
+		background-image: url(../images/demo.png);
+		background-size: 100%;
+	}
+
+	video {
+		-webkit-transform: scale(0.5) translateX(104px) translateY(178px);
+		-webkit-transform-origin: 0 0;
+	}
 }
 
 .header-extensions {
 	overflow: hidden;
 	margin-top: -25px;
 	margin-bottom: 25px;
+	position: relative;
 
 	h2 {
 		float: left;
