@@ -55,6 +55,7 @@ h2 {
 }
 
 .demo {
+	overflow: hidden;
 	position: relative;
 	margin: auto;
 	width: 760px;
@@ -71,8 +72,11 @@ h2 {
 	}
 
 	video {
-		-webkit-transform: scale(0.5) translateX(104px) translateY(178px);
-		-webkit-transform-origin: 0 0;
+		position: absolute;
+		z-index: 1;
+		opacity: 0;
+		left: 52px;
+		top: 89px;
 	}
 }
 
