@@ -27,6 +27,7 @@ h2 {
 }
 
 .header {
+	position: relative;
 	overflow: hidden;
 
 	.logo {
@@ -47,6 +48,18 @@ h2 {
 		margin-top: 45px;
 		overflow: hidden;
 		background-image: url(../images/install.svg);
+	}
+	.badge {
+		position: absolute;
+		right: 0;
+		height: 0;
+		top: 43px;
+		overflow: hidden;
+		padding-top: 42px;
+		width: 40px;
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		background-image: url(../images/free-banner.png);
 	}
 }
 
