@@ -98,6 +98,8 @@ h2 {
     background-image: url(../images/safari.png); }
   .header-extensions .firefox {
     background-image: url(../images/firefox.png); }
+  .header-extensions .opera {
+    background-image: url(../images/opera.png); }
 
 .footer {
   text-align: right;
